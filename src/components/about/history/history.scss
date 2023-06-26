@@ -1,71 +1,71 @@
-// .history-page {
-//   display: flex;
-//   padding: 72px;
-//   justify-content: space-between;
-// }
+.history-page {
+  display: flex;
+  padding: 72px;
+  gap: 200px;
+}
 
-// .pr {
-//   width: 466px;
-//   height: 466px;
-//   border-radius: 15px;
-// }
+.pr {
+  width: 466px;
+  height: 466px;
+  border-radius: 15px;
+}
 
-// .history-info {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 20px;
-//   align-items: center;
-//   justify-content: center;
+.history-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
   
-// }
+}
 
-// .hs {
-//   color: #999696;
-//   font-size: 18px;
-//   font-family: Poppins;
-//   font-weight: 600;
-//   line-height: 23.4px;
-// }
+.hs {
+  color: #999696;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 23.4px;
+}
 
-// .hp {
-//   color: #FEFEFE;
-//   font-size: 50px;
-//   font-family: Poppins;
-//   font-weight: 600;
-//   line-height: 65px;
-// }
+.hp {
+  color: #FEFEFE;
+  font-size: 50px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 65px;
+}
 
-// .js {
-//   color: rgba(254, 254, 254, 0.70);
-//   font-size: 16px;
-//   font-family: Open Sans;
-//   line-height: 25.6px;
-//   text-align: start;
-// }
+.js {
+  color: rgba(254, 254, 254, 0.70);
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 25.6px;
+  text-align: start;
+}
 
-// .j {
-//   color: rgba(254, 254, 254, 0.70);
-//   font-size: 16px;
-//   font-family: Open Sans;
-//   line-height: 25.6px;
-//   // text-align: start;  
-// }
+.j {
+  color: rgba(254, 254, 254, 0.70);
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 25.6px;
+  text-align: start;  
+}
 
-// @media (max-width: 768px) {
-//   .history-page {
-//     flex-direction: column;
-//     padding: 36px;
-//   }
+@media (max-width: 768px) {
+  .history-page {
+    flex-direction: column;
+    padding: 36px;
+  }
 
-//   .pr {
-//     width: 100%;
-//     height: auto;
-//   }
-// }
+  .pr {
+    width: 100%;
+    height: auto;
+  }
+}
 
-// @media (max-width: 480px) {
-//   .history-info {
-//     align-items: flex-start;
-//     text-align: start;
-//   }
-// }
+@media (max-width: 480px) {
+  .history-info {
+    align-items: flex-start;
+    text-align: start;
+  }
+}

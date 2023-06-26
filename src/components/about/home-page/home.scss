@@ -7,76 +7,117 @@
   gap: 100px;
   padding: 72px;
   align-items: center;
+}
 
+.home-header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.home-logo {
+  width: 253px;
+  height: 61.972px;
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.home-li {
+  list-style: none;
+}
+
+.home-a {
+  color: #FFF;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home-a:hover,
+.activ {
+  color: #FF4A17;
+}
+
+.home-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-h2,
+.home-span {
+  color: #FFF;
+  text-align: center;
+  font-family: Arimo;
+  line-height: 25.6px;
+  text-transform: uppercase;
+}
+
+.home-h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.home-p,
+.home-span {
+  color: #999696;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arimo;
+}
+
+@media (max-width: 768px) {
   .home-header {
-    display: flex;
-    gap: 60px;
-
-    .home-logo {
-      width: 253px;
-      height: 61.972px;
-    }
-
-    .home-nav {
-      display: flex;
-      align-items: center;
-      gap: 60px;
-
-      .home-li {
-        list-style: none;
-
-        .home-a {
-          color: #FFF;
-          font-size: 15px;
-          font-family: Poppins;
-          font-weight: 600;
-          line-height: 24px;
-          text-transform: uppercase;
-          text-decoration: none;
-        }
-
-        .home-a:hover {
-          color: #FF4A17;
-
-        }
-
-        .activ {
-          color: #FF4A17;
-        }
-      }
-    }
+    flex-direction: column;
+    gap: 20px;
   }
 
-  .home-info {
-    margin-top: 50px;
-    display: flex;
+  .home-section {
+    padding: 36px;
+  }
+
+  .home-logo {
+    width: 180px;
+    height: 44.104px;
+  }
+
+  .home-nav {
+    display: none;
     flex-direction: column;
+  }
 
-    .home-h2 {
-      color: #FFF;
-      text-align: center;
-      font-size: 50px;
-      font-family: Arimo;
-      font-weight: 700;
-      line-height: 65px;
-    }
+  .home-h2 {
+    font-size: 36px;
+    line-height: 46.8px;
+  }
 
-    .home-p {
-      color: #999696;
-      text-align: center;
-      font-size: 16px;
-      font-family: Arimo;
-      line-height: 25.6px;
-      text-transform: uppercase;
-    }
+  .home-p,
+  .home-span {
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+}
 
-    .home-span {
-      color: #FFF;
-      text-align: center;
-      font-size: 16px;
-      font-family: Arimo;
-      line-height: 25.6px;
-      text-transform: uppercase;
-    }
+@media (max-width: 375px) {
+  .home-section {
+    padding: 24px;
+  }
+
+  .home-logo {
+    width: 140px;
+    height: 34.388px;
+  }
+
+  .home-h2 {
+    font-size: 28px;
+    line-height: 36.4px;
   }
 }

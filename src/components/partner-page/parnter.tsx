@@ -22,7 +22,7 @@ function Partner() {
           showIndicators={false}
           infiniteLoop={true}
           autoPlay={true}
-          interval={2000}
+          interval={1000}
           transitionTime={500}
           emulateTouch={true}
           showThumbs={false}
@@ -70,6 +70,93 @@ function Partner() {
           </div>
           <div>
             <img src={country9} alt="" />
+          </div>
+          <div>
+            <img src={country1} alt="" />
+          </div>
+          <div>
+            <img src={country2} alt="" />
+          </div>
+          <div>
+            <img src={country3} alt="" />
+          </div>
+          <div>
+            <img src={country4} alt="" />
+          </div>
+          <div>
+            <img src={country5} alt="" />
+          </div>
+          <div>
+            <img src={country1} alt="" />
+          </div>
+          <div>
+            <img src={country2} alt="" />
+          </div>
+          <div>
+            <img src={country3} alt="" />
+          </div>
+          <div>
+            <img src={country4} alt="" />
+          </div>
+          <div>
+            <img src={country5} alt="" />
+          </div>
+          <div>
+            <img src={country1} alt="" />
+          </div>
+          <div>
+            <img src={country2} alt="" />
+          </div>
+          <div>
+            <img src={country3} alt="" />
+          </div>
+          <div>
+            <img src={country4} alt="" />
+          </div>
+          <div>
+            <img src={country5} alt="" />
+          </div>
+          <div>
+            <img src={country6} alt="" />
+          </div>
+          <div>
+            <img src={country7} alt="" />
+          </div>
+          <div>
+            <img src={country8} alt="" />
+          </div>
+          <div>
+            <img src={country9} alt="" />
+          </div>
+          <div>
+            <img src={country5} alt="" />
+          </div>
+          <div>
+            <img src={country6} alt="" />
+          </div>
+          <div>
+            <img src={country7} alt="" />
+          </div>
+          <div>
+            <img src={country8} alt="" />
+          </div>
+          <div>
+            <img src={country9} alt="" />
+          </div>
+          <div>
+            <img src={country1} alt="" />
+          </div>
+          <div>
+            <img src={country2} alt="" />
+          </div>
+          <div>
+            <img src={country3} alt="" />
+          </div>
+          <div>
+            <img src={country4} alt="" />
+          </div>
+          <div>
+            <img src={country5} alt="" />
           </div>
           <div>
             <img src={country1} alt="" />

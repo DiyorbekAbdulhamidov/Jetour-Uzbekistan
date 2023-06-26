@@ -76,13 +76,15 @@
   }
 
   .info h3 {
+    color: transparent;
     font-size: 40px;
     font-family: Arimo;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 0.4px #ffffff;
+    font-weight: 400;  
   }
 
   .logo {

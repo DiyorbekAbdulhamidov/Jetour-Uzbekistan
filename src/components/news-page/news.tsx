@@ -10,7 +10,7 @@ function News() {
     <section className="news-page">
       <div className="news-info">
         <p>Наш Блог</p>
-        <h2 className="h2">Читайте <br /> наши  новости</h2>
+        <h3 >Читайте наши  <h2 className="a"> новости</h2></h3>
         <span>Читать больше <img src={grayArrow} alt="" /></span>
       </div>
       <div className="news-imgs">

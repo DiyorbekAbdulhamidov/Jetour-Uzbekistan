@@ -1,4 +1,3 @@
-// import linkedin from "../assets/imgs/link.svg";
 import { Link } from "react-router-dom";
 import twitter from "../assets/imgs/twitter.svg";
 import youtube from "../assets/imgs/youtube.svg";
@@ -16,7 +15,7 @@ function Footer() {
             Добро пожаловать в нашу быстро <br /> ростущую компанию по производству <br /> Китайских электромобилей
           </span>
           <div className="logos">
-            {/* <img src={linkedin} alt="" /> */}
+            <img src={ai} alt="" />
             <img src={twitter} alt="" />
             <img src={youtube} alt="" />
             <img src={ai} alt="" />
@@ -25,9 +24,7 @@ function Footer() {
 
         <div className="footer-gg">
           <p>Навигация</p>
-          <li><Link to="/about">
-            <span>О нас</span>
-          </Link></li>
+          <span>О нас</span>
           <span>Продукция</span>
           <span>Блог</span>
           <span>Инновация</span>

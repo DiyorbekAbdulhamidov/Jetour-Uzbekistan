@@ -15,9 +15,9 @@
     line-height: 65px;
 
     span {
-      color: black;
-      text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
-
+      color: transparent;
+      -webkit-text-stroke: 0.4px #ffffff;
+      font-weight: 400;
     }
   }
 

@@ -11,8 +11,9 @@ footer {
     gap: 40px;
 
     .logos {
-      align-items: center;
-      justify-content: center;
+      cursor: pointer;
+      align-items: flex-start;
+      justify-content: flex-start;
       display: flex;
       gap: 10px;
     }
@@ -95,7 +96,7 @@ footer {
       background: #FF4A17;
       color: #FFF;
       text-align: center;
-      font-size: 16px;
+      font-size: 12px;
       font-family: Open Sans;
       font-weight: 600;
       line-height: 25.6px;
@@ -127,8 +128,9 @@ footer {
 
     .footer-top {
       flex-direction: column;
-      align-items: center;
-      gap: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 40px;
     }
 
     .inpBtn {

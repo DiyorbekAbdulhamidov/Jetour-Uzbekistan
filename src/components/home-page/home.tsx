@@ -40,7 +40,7 @@ function HomePage() {
                 <Link
                   className={activeLink === 'ПРОДУКЦИЯ' ? 'active' : ''}
                   to="/products"
-                  onClick={() => handleLinkClick('ПРОДУКЦИЯ')}
+                  onClick={() => handleLinkClick('')}
                 >
                   ПРОДУКЦИЯ
                 </Link>
@@ -49,7 +49,7 @@ function HomePage() {
                 <Link
                   className={activeLink === 'Инновации' ? 'active' : ''}
                   to="/innovations"
-                  onClick={() => handleLinkClick('Инновации')}
+                  onClick={() => handleLinkClick('')}
                 >
                   Инновации
                 </Link>
@@ -58,7 +58,7 @@ function HomePage() {
                 <Link
                   className={activeLink === 'Контакты' ? 'active' : ''}
                   to="/contacts"
-                  onClick={() => handleLinkClick('Контакты')}
+                  onClick={() => handleLinkClick('')}
                 >
                   Контакты
                 </Link>

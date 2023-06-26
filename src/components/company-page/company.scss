@@ -1,0 +1,124 @@
+.box {
+  width: 1296px;
+  height: 295px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(258deg, #161616 0%, #080808 100%);
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 130px;
+}
+
+.o-company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  p {
+    color: #FEFEFE;
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 65px;
+  }
+
+  span {
+    color: rgba(254, 254, 254, 0.70);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 28px;
+  }
+}
+
+.company-st {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 20px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+    span {
+      color: #FFF;
+      font-size: 50px;
+      font-family: Arimo;
+      font-weight: 700;
+      line-height: 65px;
+      text-align: center;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      span {
+        color: #FF4A17;
+        font-size: 20px;
+        font-family: Open Sans;
+        font-weight: 700;
+        line-height: 25.6px;
+        position: relative;
+        top: 10px;
+      }
+
+      p {
+        position: relative;
+        bottom: 10px;
+        color: rgba(254, 254, 254, 0.70);
+        font-size: 16px;
+        font-family: Open Sans;
+        line-height: 25.6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .o-company {
+    text-align: center;
+  }
+
+  .company-st {
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(4, 100px);
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+    border-radius: 0;
+    padding: 10px;
+  }
+
+  .o-company {
+    p {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  .company-st {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+  }
+}

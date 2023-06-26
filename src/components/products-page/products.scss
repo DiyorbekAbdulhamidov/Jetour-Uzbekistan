@@ -1,0 +1,149 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 72px;
+
+  .products-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      h3,
+      h4 {
+        color: #FFF;
+        font-size: 50px;
+        font-family: Arimo;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+      }
+    }
+
+    button {
+      width: 233px;
+      height: 71px;
+      border-radius: 35px;
+      background: rgba(255, 255, 255, 0.10);
+      color: #999696;
+      font-size: 14px;
+      font-family: Arimo;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 1.96px;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    button:hover {
+      color: #FFF;
+      background: #FF4A17;
+    }
+  }
+
+  .products-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 20px;
+
+    img {
+      width: 410px;
+      height: 488px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        position: relative;
+        bottom: 30px;
+        color: #FFF;
+        text-align: center;
+        font-size: 26px;
+        font-family: Arimo;
+        font-weight: 700;
+        line-height: 31.2px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    padding: 48px;
+
+    .products-info {
+      justify-content: center;
+      text-align: center;
+
+      div {
+        margin-bottom: 20px;
+      }
+    }
+
+    .products-boxes {
+      justify-content: flex-start;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .products {
+    padding: 24px;
+
+    .products-info {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .products-boxes {
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .products {
+    padding: 16px;
+
+    .products-info {
+
+      h3,
+      h4 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+
+    .products-boxes {
+      gap: 16px;
+
+      div {
+        p {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

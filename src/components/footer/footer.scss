@@ -1,0 +1,126 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding: 72px;
+
+  .footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+
+    .logos{
+      display: flex;
+      gap: 10px;  
+    }
+
+    .footer-gg {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    p {
+      color: #FEFEFE;
+      font-size: 18px;
+      font-family: Arimo;
+      font-weight: 700;
+      line-height: 23.4px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #FF4A17;
+      }
+    }
+
+    span {
+      cursor: pointer;
+      color: rgba(254, 254, 254, 0.70);
+      font-size: 16px;
+      font-family: Arimo;
+      line-height: 25.6px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #FF4A17;
+      }
+    }
+  }
+
+  .inpBtn {
+    display: flex;
+
+    input {
+      width: 201px;
+      height: 22px;
+      border-radius: 10px;
+      background: #000;
+      padding: 13px 15px;
+      border: none;
+      position: relative;
+      color: white;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    button {
+      cursor: pointer;
+      width: 89px;
+      height: 26px;
+      border-radius: 10px;
+      background: #FF4A17;
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-family: Open Sans;
+      font-weight: 600;
+      line-height: 25.6px;
+      border: none;
+    }
+
+    input::placeholder {
+      color: #757575;
+      font-size: 16px;
+      font-family: Open Sans;
+    }
+  }
+
+  .footer-bot {
+    display: flex;
+    justify-content: space-between;
+
+    span,
+    p {
+      color: rgba(254, 254, 254, 0.70);
+      font-size: 16px;
+      font-family: Arimo;
+      line-height: 25.6px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 36px;
+
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .inpBtn {
+      flex-direction: column;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    padding: 24px;
+  }
+}

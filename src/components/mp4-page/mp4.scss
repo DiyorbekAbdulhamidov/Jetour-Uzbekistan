@@ -1,0 +1,84 @@
+.mp4{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 72px;
+
+  h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    font-family: Arimo;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .suv-car{
+      width: 1296px;
+      height: 729px;
+      border-radius: 15px;
+    }
+
+    .icon{
+      position: relative;
+      transform: translate(-50%);
+      left: 100px;
+      bottom: 470px;
+      cursor: pointer;
+    }
+  }
+  
+}
+
+@media (max-width: 1296px) {
+  .icon{
+    display: none;
+  }
+  .mp4 {
+    padding: 48px;
+  }
+
+  .suv-car {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .mp4 {
+    padding: 24px;
+  }
+
+  .suv-car {
+    max-width: 480px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .mp4 {
+    padding: 16px;
+  }
+
+  .suv-car {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mp4 {
+    padding: 16px;
+  }
+
+  .suv-car {
+    max-width: 280px;
+  }
+}

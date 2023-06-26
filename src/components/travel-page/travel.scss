@@ -1,0 +1,162 @@
+.travel-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px;
+
+  .travel-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    h3 {
+      color: #FFF;
+      font-size: 50px;
+      font-family: Arimo;
+      font-weight: 700;
+      line-height: 60px;
+      text-transform: uppercase;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        width: 334px;
+        height: 60px;
+        border: none;
+        background: none;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+
+        p:hover {
+          color: #FF4A17;
+        }
+
+        p {
+          color: #FFF;
+          font-size: 18px;
+          font-family: Arimo;
+          font-weight: 700;
+          line-height: 60px;
+          transition: 0.2s all ease-in-out;
+
+          .arrow {
+            position: relative;
+            top: 5px;
+            left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .travel-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+
+    img {
+      width: 698px;
+      height: 362px;
+      border-radius: 15px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding: 48px;
+
+    .travel-imgs img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    .travel-info {
+      text-align: center;
+      align-items: center;
+
+      div {
+        width: 100%;
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+
+    .travel-imgs {
+      align-items: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 24px;
+
+    .travel-info {
+      gap: 24px;
+
+      h3 {
+        font-size: 36px;
+        line-height: 48px;
+      }
+
+      div {
+        button {
+          height: 50px;
+
+          p {
+            font-size: 16px;
+            line-height: 50px;
+
+            .arrow {
+              top: 4px;
+              left: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .travel-imgs {
+      gap: 48px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    padding: 16px;
+
+    .travel-info {
+      h3 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+
+      div {
+        button {
+          height: 48px;
+
+          p {
+            font-size: 14px;
+            line-height: 48px;
+
+            .arrow {
+              top: 3px;
+              left: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

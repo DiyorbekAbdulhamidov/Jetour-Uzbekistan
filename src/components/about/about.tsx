@@ -1,8 +1,8 @@
 import HomePage from "../about/home-page/home";
-import Start from "../start-page/start";
 import Jetour from "./jetour-page/jetour";
-import Company from "../company-page/company";
 import Historys from "./history/history";
+import Start from "../start-page/start";
+import Company from "../company-page/company";
 import Footer from "../footer/footer";
 
 function About() {

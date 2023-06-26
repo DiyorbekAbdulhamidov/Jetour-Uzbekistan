@@ -7,137 +7,76 @@
   gap: 100px;
   padding: 72px;
   align-items: center;
-}
 
-.hh {
-  width: 253px;
-  height: 61.972px;
-}
+  .home-header {
+    display: flex;
+    gap: 60px;
 
-header {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-}
+    .home-logo {
+      width: 253px;
+      height: 61.972px;
+    }
 
-nav {
-  display: flex;
-  gap: 60px;
-}
+    .home-nav {
+      display: flex;
+      align-items: center;
+      gap: 60px;
 
-li {
-  list-style: none;
-}
+      .home-li {
+        list-style: none;
 
-a {
-  color: #FFF;
-  font-size: 15px;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 24px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+        .home-a {
+          color: #FFF;
+          font-size: 15px;
+          font-family: Poppins;
+          font-weight: 600;
+          line-height: 24px;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
 
-a:hover,
-.activ {
-  color: #FF4A17;
-}
+        .home-a:hover {
+          color: #FF4A17;
 
-.infos {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-}
+        }
 
-h2 {
-  color: #FFF;
-  text-align: center;
-  font-size: 50px;
-  font-family: Arimo;
-  font-weight: 700;
-  line-height: 65px;
-}
-
-p {
-  color: #999696;
-  text-align: center;
-  font-size: 16px;
-  font-family: Arimo;
-  line-height: 25.6px;
-  text-transform: uppercase;
-}
-
-.span {
-  color: #FFF;
-  text-align: center;
-  font-size: 16px;
-  font-family: Arimo;
-  line-height: 25.6px;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 768px) {
-  .home-section {
-    gap: 50px;
-    padding: 40px;
+        .activ {
+          color: #FF4A17;
+        }
+      }
+    }
   }
 
-  .hh {
-    width: 200px;
-    height: auto;
-  }
-
-  header {
-    gap: 40px;
-  }
-
-  nav {
-    gap: 40px;
-  }
-
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  p,
-  span {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .home-section {
-    gap: 30px;
-    padding: 20px;
-  }
-
-  .hh {
-    width: 150px;
-  }
-
-  header {
+  .home-info {
+    margin-top: 50px;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
 
-  nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+    .home-h2 {
+      color: #FFF;
+      text-align: center;
+      font-size: 50px;
+      font-family: Arimo;
+      font-weight: 700;
+      line-height: 65px;
+    }
 
-  h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
+    .home-p {
+      color: #999696;
+      text-align: center;
+      font-size: 16px;
+      font-family: Arimo;
+      line-height: 25.6px;
+      text-transform: uppercase;
+    }
 
-  p,
-  span {
-    font-size: 12px;
-    line-height: 18px;
+    .home-span {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-family: Arimo;
+      line-height: 25.6px;
+      text-transform: uppercase;
+    }
   }
 }

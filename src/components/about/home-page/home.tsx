@@ -19,7 +19,7 @@ function HomePage() {
       </header>
       <div className="infos">
         <h2>О нас</h2>
-        <p>Главная <span>| О нас</span></p>
+        <p>Главная <span className="span">| О нас</span></p>
       </div>
 
     </section>  

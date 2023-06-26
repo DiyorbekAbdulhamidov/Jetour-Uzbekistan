@@ -67,8 +67,8 @@ function HomePage() {
           </nav>
         </header>
         <div className="info">
-          <h2>Наслаждайся жизнью,</h2>
-          <h3>Наслаждайся поездкой.</h3>
+          <h2 className='hh2'>Наслаждайся жизнью,</h2>
+          <h3 className='hh3'>Наслаждайся поездкой.</h3>
         </div>
         <div className="inovations">
           <p>Инновация</p>

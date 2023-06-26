@@ -3,7 +3,7 @@ import "./prizes.scss"
 function Prizes() {
   return ( 
     <section className="prizes-page">
-      <h3>
+      <h3 className="h3">
         НАШИ <br />
        <span>НАГРАДЫ</span>  
       </h3>

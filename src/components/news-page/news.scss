@@ -5,6 +5,11 @@
   padding: 48px 72px;
   align-items: center;
 
+  .news-info{
+    display: flex;
+    align-items: flex-start;
+
+  }
 
   .news-imgs {
     display: flex;
@@ -55,12 +60,13 @@
       line-height: 23.4px;
     }
 
-    h2 {
+    .h2 {
       color: #FEFEFE;
       font-size: 50px;
       font-family: Poppins;
       font-weight: 600;
       line-height: 65px;
+      text-align: start;
     
     
     }

@@ -9,7 +9,7 @@ function Travel() {
   return (
     <section className="travel-page">
       <div className="travel-info">
-        <h3>ОПРЕДЕЛИТЕ СВОЕ <br /> ПУТИШЕСТВИЕ</h3>
+        <h3>ОПРЕДЕЛИТЕ СВОЕ <br /> <span>ПУТИШЕСТВИЕ </span>  </h3>
         <div>
           <button><p>Жизнеспособность <img className="arrow" src={arrow} alt="" /></p></button>
           <button><p>Предприимчивый   <img className="arrow" src={arrow} alt="" /></p></button>

@@ -14,7 +14,7 @@ import "./partner.scss";
 function Partner() {
   return (
     <section className="partner-page">
-      <h3>НАШИ ПАРТНЕРЫ</h3>
+      <h3>НАШИ <span>ПАРТНЕРЫ</span> </h3>
       <div className="partner-imgs">
         <Carousel
           showArrows={false}

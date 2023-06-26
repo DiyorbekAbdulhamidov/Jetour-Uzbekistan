@@ -13,12 +13,18 @@
     font-family: Arimo;
     font-weight: 700;
     line-height: 65px;
+
+    span {
+      color: black;
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+    }
   }
 
   @media (max-width: 1200px) {
     .prizes-page {
       flex-direction: column;
     }
+
     gap: 60px;
     padding: 48px;
 
@@ -32,6 +38,7 @@
     .prizes-page {
       flex-direction: column;
     }
+
     gap: 40px;
     padding: 36px;
 
@@ -45,6 +52,7 @@
     .prizes-page {
       flex-direction: column;
     }
+
     gap: 30px;
     padding: 24px;
 
@@ -58,6 +66,7 @@
     .prizes-page {
       flex-direction: column;
     }
+
     gap: 20px;
     padding: 16px;
 

@@ -5,7 +5,7 @@ function Prizes() {
     <section className="prizes-page">
       <h3>
         НАШИ <br />
-        НАГРАДЫ
+       <span>НАГРАДЫ</span>  
       </h3>
       <div className="prizes-boxes">
         <div>

@@ -1,4 +1,4 @@
-import linkedin from "../assets/imgs/link.svg";
+// import linkedin from "../assets/imgs/link.svg";
 import twitter from "../assets/imgs/twitter.svg";
 import youtube from "../assets/imgs/youtube.svg";
 import ai from "../assets/imgs/ai.svg";
@@ -15,7 +15,7 @@ function Footer() {
             Добро пожаловать в нашу быстро <br /> ростущую компанию по производству <br /> Китайских электромобилей
           </span>
           <div className="logos">
-            <img src={linkedin} alt="" />
+            {/* <img src={linkedin} alt="" /> */}
             <img src={twitter} alt="" />
             <img src={youtube} alt="" />
             <img src={ai} alt="" />

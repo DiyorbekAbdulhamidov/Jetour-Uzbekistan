@@ -11,14 +11,6 @@
   background-position: center;
   background-image: repeating-linear-gradient(1deg, rgba(0, 0, 0, 9.5), rgba(0, 0, 0, 0.5)), url('https://s3-alpha-sig.figma.com/img/48be/3527/dc868761f455ef44259ba16713bb8ed3?Expires=1688342400&Signature=BolENkFXp040JHFe-JXD2oiP-voJaO8u-~kQCRK4S9MpMGqbV8O1McaCdOxXegcNoeDS2y7ZYmoW4Kjh9AKfHahohcjxTsCITtcvMZNkThChbmGWe0rKQIVF7QsCnbbnH2kmrcZ7pTFGpf2d9Ypn4Uz2dptaMhcgIuUj2kzUjQv-3DKWG1HCFdqoAZzFE0mdKl1s-4qT5XCnOYvkpItbgpxS~0gZpSKPaB~Bzt0fB0oFJr~DRIsiQKS6Sb4U-eUYq~M8FDOm1wZ3V2oo2YdeicesyMUK0A8UKkBaV1y8pTzNEKVixnZSWUnyAilG47orySQTWbhJyWAl0hHuPCaDJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
 
-  .logo {
-    width: 253px;
-    height: 71.972px;
-    color: white;
-    background-color: #FEFEFE;
-
-  }
-
   &::before {
     content: '';
     display: block;
@@ -54,10 +46,14 @@
     text-decoration: none;
     color: #FFF;
     font-size: 15px;
-    font-family: Poppins;
     font-weight: 600;
     line-height: 24px;
     text-transform: uppercase;
+  }
+
+  .gl{
+    color: #FF4A17;
+
   }
 
   a:hover {
@@ -72,9 +68,8 @@
     padding-top: 205px;
   }
 
-  .info h2,
-  .info h3 {
-    color: #FFF;
+  .info h2{
+    color: white;
     font-size: 40px;
     font-family: Arimo;
     font-weight: 700;
@@ -82,7 +77,21 @@
     letter-spacing: 0.8px;
     text-transform: uppercase;
   }
-
+  .info h3 {
+    font-size: 40px;
+    font-family: Arimo;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+  }
+  
+  .logo{
+    width: 253px;
+    height: 61.972px;
+  }
+  
   .info h3 {
     padding-left: 100px;
   }

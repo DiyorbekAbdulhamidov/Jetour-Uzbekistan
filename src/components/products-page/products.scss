@@ -15,8 +15,7 @@
       flex-direction: column;
       gap: 5px;
 
-      h3,
-      h4 {
+      h3 {
         color: #FFF;
         font-size: 50px;
         font-family: Arimo;
@@ -24,6 +23,17 @@
         line-height: 60px;
         text-transform: uppercase;
       }
+
+      h4 {
+        font-size: 50px;
+        font-family: Arimo;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+      }
+
+
     }
 
     button {

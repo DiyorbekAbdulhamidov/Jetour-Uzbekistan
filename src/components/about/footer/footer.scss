@@ -10,35 +10,15 @@ footer {
     justify-content: space-between;
     gap: 40px;
 
-    .logos {
-      align-items: center;
-      justify-content: center;
+    .logos{
       display: flex;
-      gap: 10px;
+      gap: 10px;  
     }
 
     .footer-gg {
       display: flex;
       flex-direction: column;
       gap: 40px;
-
-      li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        span {
-          color: rgba(254, 254, 254, 0.70);
-          text-align: center
-        }
-
-        ;
-
-        span:hover {
-          color: #FF4A17;
-
-        }
-      }
     }
 
     p {

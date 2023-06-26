@@ -34,31 +34,28 @@
   }
 
   nav {
-    display: flex;
+    display: flex; 
     gap: 60px;
   }
 
-  nav li {
+  nav ul {
+    display: flex;
+    gap: 60px;
     list-style: none;
   }
 
   nav li a {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
     font-size: 15px;
     font-weight: 600;
     line-height: 24px;
     text-transform: uppercase;
   }
 
-  .gl{
-    color: #FF4A17;
-
-  }
-
-  a:hover {
-    color: #FF4A17;
-
+  nav li a.active,
+  nav li a:hover {
+    color: #ff4a17;
   }
 
   .info {
@@ -68,7 +65,7 @@
     padding-top: 205px;
   }
 
-  .info h2{
+  .info h2 {
     color: white;
     font-size: 40px;
     font-family: Arimo;
@@ -77,6 +74,7 @@
     letter-spacing: 0.8px;
     text-transform: uppercase;
   }
+
   .info h3 {
     font-size: 40px;
     font-family: Arimo;
@@ -86,12 +84,12 @@
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
   }
-  
-  .logo{
+
+  .logo {
     width: 253px;
     height: 61.972px;
   }
-  
+
   .info h3 {
     padding-left: 100px;
   }
@@ -104,7 +102,7 @@
   }
 
   .inovations p {
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-family: Open Sans;
     font-weight: 600;
@@ -112,7 +110,7 @@
   }
 
   .inovations span {
-    color: #FEFEFE;
+    color: #fefefe;
     font-size: 18px;
     font-family: Open Sans;
     line-height: 34.2px;
@@ -128,7 +126,7 @@
   }
 
   @media (max-width: 768px) {
-    nav{
+    nav {
       display: none;
     }
     padding: 48px;

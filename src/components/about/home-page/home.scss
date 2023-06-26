@@ -1,0 +1,143 @@
+.home-section {
+  width: 100%;
+  height: 650px;
+  background: url('https://s3-alpha-sig.figma.com/img/4ce0/39e9/bf31fb7c2d26112ad340c7f41f8f8bee?Expires=1688947200&Signature=pHFZxkrRR1Y-YxEAubCEJ-jv7yU-0~QP9tJOg9rrY8t7WNuEIHGweKqiKPlMMysL0f2p6vWtNopqEqJ9C5aVuG1WPf2GMPp4QvjDdZmfd-~iGardqcDu29gzXAyjmyAqFn6Y2M2633CIbztkLjnbkS7DDPln10Fm3sMwTPKF0AUnzCa~CMcJnHok99cQ1480oJ5cVqTl0C~k4q~UT2YohPJiPkZDXkB2EJ~v2TB70Qex4qqqwT7jNG9m609tuAvCoFvbMX4ftVWJKRXylHc8EQqxFqK1pOeYK5msIcsAV6U7LZc9zMhIdjkrP~Ae5jO2qTyyknRY4DWRR6e1l0xIjA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'), lightgray -243.949px 0px / 133.882% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 72px;
+  align-items: center;
+}
+
+.hh {
+  width: 253px;
+  height: 61.972px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover,
+.activ {
+  color: #FF4A17;
+}
+
+.infos {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arimo;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+p {
+  color: #999696;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arimo;
+  line-height: 25.6px;
+  text-transform: uppercase;
+}
+
+span {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arimo;
+  line-height: 25.6px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    gap: 50px;
+    padding: 40px;
+  }
+
+  .hh {
+    width: 200px;
+    height: auto;
+  }
+
+  header {
+    gap: 40px;
+  }
+
+  nav {
+    gap: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  p,
+  span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-section {
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .hh {
+    width: 150px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  p,
+  span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

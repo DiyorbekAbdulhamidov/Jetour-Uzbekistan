@@ -1,0 +1,103 @@
+.jetour-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 72px;
+  margin-bottom: 150px;
+}
+
+.jetour-flx1 {
+  display: flex;
+  gap: 90px;
+}
+
+.jetour-flx {
+  display: flex;
+  gap: 20px;
+}
+
+.jetour-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.pro {
+  color: #999696;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 23.4px;
+}
+
+.onas {
+  color: #FEFEFE;
+  font-size: 50px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 65px;
+}
+
+.soz {
+  text-align: start;
+  color: rgba(254, 254, 254, 0.70);
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cherry,
+.cars,
+.life {
+  border-radius: 15px;
+  width: 526px;
+  height: 441px;
+}
+
+.life {
+  width: 746px;
+}
+
+@media (max-width: 768px) {
+
+  .jetour-flx1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jetour-flx {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cherry,
+  .cars,
+  .life {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .jetour-infos {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cherry {
+    left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jetour-page {
+    padding: 36px;
+  }
+}

@@ -16,7 +16,7 @@
       gap: 5px;
 
       h3 {
-        color: #FFF;
+        color: #fff;
         font-size: 50px;
         font-family: Arimo, sans-serif;
         font-weight: 700;
@@ -34,14 +34,13 @@
         -webkit-text-stroke: 0.4px #ffffff;
         font-weight: 400;
       }
-
     }
 
     button {
       width: 233px;
       height: 71px;
       border-radius: 35px;
-      background: rgba(255, 255, 255, 0.10);
+      background: rgba(255, 255, 255, 0.1);
       color: #999696;
       font-size: 14px;
       font-family: Arimo, sans-serif;
@@ -55,8 +54,8 @@
     }
 
     button:hover {
-      color: #FFF;
-      background: #FF4A17;
+      color: #fff;
+      background: #ff4a17;
     }
   }
 
@@ -70,10 +69,8 @@
     img {
       width: 410px;
       height: 488px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       border-radius: 10px;
+      opacity: 0.8;
     }
 
     div {
@@ -82,8 +79,8 @@
 
       p {
         position: relative;
-        bottom: 30px;
-        color: #FFF;
+        bottom: 60px;
+        color: #fff;
         text-align: center;
         font-size: 26px;
         font-family: Arimo;

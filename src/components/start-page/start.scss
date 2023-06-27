@@ -1,11 +1,17 @@
+.start-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .start {
   background-image: url("https://s3-alpha-sig.figma.com/img/ef5b/7098/e300106dd272d577e7e3a3228776f287?Expires=1688947200&Signature=Yor6YZjxXL1f9EgmBB1uy5GdcCUBBIkblS4V8NcMYuEvMFZTiukxaQxqDjcYI-pnpFm29CoN3xfGC4cGJkovG-re~EIU5YxFoE~y5CP5S-VrLJR~fjrYdj3bXWmK5SXlhGApHTudDZHAkmBImScflVt7fl2i-Esy29oEqWSTRNEdA2Izk1TBD0RGa32YUN1jhbZ-5uAD80VOBmqzkGGCpDY02fnIHoyVvbG8WB08gcovfS4CKQR2qX8g3XhAC1ilmY7Zfd8EciJFu~S5KqDK4T~BCZhScM4qOYPizDqqLhN0uKVL5vHxGv00UVBXEVbXt8LkkoWtmSIJ5lv~JstY7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 1380px;
   padding-top: 31.25%;
-
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +23,7 @@
     color: #FEFEFE;
     text-align: center;
     font-size: 4.17vw;
-    font-family: Arimo,sans-serif;
+    font-family: Arimo, sans-serif;
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 2vw;
@@ -27,7 +33,7 @@
     color: #999696;
     text-align: center;
     font-size: 1.67vw;
-    font-family: Arimo,sans-serif;
+    font-family: Arimo, sans-serif;
     font-weight: 700;
     line-height: 1.25;
     border: none;

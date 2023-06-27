@@ -22,7 +22,7 @@
   p {
     color: #FEFEFE;
     font-size: 50px;
-    font-family: Poppins;
+    font-family: Poppins,sans-serif;
     font-weight: 600;
     line-height: 65px;
   }
@@ -30,7 +30,7 @@
   span {
     color: rgba(254, 254, 254, 0.70);
     font-size: 16px;
-    font-family: Open Sans;
+    font-family: Open Sans,sans-serif;
     line-height: 28px;
   }
 }
@@ -51,7 +51,7 @@
     span {
       color: #FFF;
       font-size: 50px;
-      font-family: Arimo;
+      font-family: Arimo,sans-serif;
       font-weight: 700;
       line-height: 65px;
       text-align: center;
@@ -65,7 +65,7 @@
       span {
         color: #FF4A17;
         font-size: 20px;
-        font-family: Open Sans;
+        font-family: Open Sans,sans-serif;
         font-weight: 700;
         line-height: 25.6px;
         position: relative;
@@ -77,7 +77,7 @@
         bottom: 10px;
         color: rgba(254, 254, 254, 0.70);
         font-size: 16px;
-        font-family: Open Sans;
+        font-family: Open Sans,sans-serif;
         line-height: 25.6px;
       }
     }

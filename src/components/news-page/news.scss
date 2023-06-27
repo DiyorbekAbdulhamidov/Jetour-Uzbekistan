@@ -55,7 +55,7 @@
     p {
       color: #999696;
       font-size: 18px;
-      font-family: Poppins;
+      font-family: Poppins,sans-serif;;
       font-weight: 600;
       line-height: 23.4px;
     }
@@ -63,14 +63,14 @@
     h3 {
       color: #FEFEFE;
       font-size: 50px;
-      font-family: Poppins;
+      font-family: Poppins,sans-serif;;
       font-weight: 600;
       line-height: 65px;
       text-align: start;
 
       h2 {
         font-size: 50px;
-        font-family: Poppins;  
+        font-family: Poppins,sans-serif;;  
         line-height: 65px;
         text-align: start;
         color: transparent;
@@ -87,7 +87,7 @@
       text-align: center;
       color: #999696;
       font-size: 18px;
-      font-family: Arimo;
+      font-family: Arimo,sans-serif;
       font-weight: 700;
       line-height: 60px;
       transition: 0.2s all ease-in-out;

@@ -2,9 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Arimo;
+  /* font-family: 'Roboto', sans-serif; */
+
+  /* font-family: Arimo; */
 }
 
 body{
-  background: #181818;;
+  background: #181818;
 }

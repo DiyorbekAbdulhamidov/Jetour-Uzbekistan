@@ -124,6 +124,15 @@
 }
 
 @media (max-width: 768px) {
+  .travel-imgs .overlay .text{
+    font-size: 18px;
+    font-family: Arimo;
+    font-weight: 700;
+    line-height: 19.5px;
+    letter-spacing: 0.12px;
+    text-align: start;
+  }
+
   .travel-page {
     flex-direction: column;
     align-items: center;

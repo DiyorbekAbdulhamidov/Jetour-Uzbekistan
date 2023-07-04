@@ -1,7 +1,8 @@
-.travel-page {
+.travel-pages {
   display: flex;
   justify-content: space-between;
-  padding: 72px;
+  gap: 73px;
+  padding: 40px;
 }
 
 .travel-info {
@@ -31,7 +32,8 @@
 }
 
 .travel-info div button {
-  width: 334px;
+  width: 100%;
+  max-width: 334px;
   height: 60px;
   border: none;
   background: none;
@@ -73,8 +75,9 @@
 }
 
 .travel-imgs img {
-  width: 698px;
-  height: 362px;
+  width: 100%;
+  max-width: 698px;
+  height: auto;
   border-radius: 15px;
   display: block;
   cursor: pointer;
@@ -112,104 +115,46 @@
   opacity: 1;
 }
 
-@media (max-width: 1200px) {
-  .travel-page {
-    padding: 48px;
-  }
-
-  .travel-imgs img {
-    width: 100%;
-    height: auto;
-  }
-}
+/* Responsive Styles */
 
 @media (max-width: 768px) {
-  .travel-imgs .overlay .text{
-    font-size: 18px;
-    font-family: Arimo;
-    font-weight: 700;
-    line-height: 19.5px;
-    letter-spacing: 0.12px;
-    text-align: start;
-  }
-
-  .travel-page {
+  .travel-pages {
     flex-direction: column;
-    align-items: center;
+    gap: 0;
+    padding: 20px;
   }
 
+  .travel-imgs .overlay .text{
+    font-size: 20px;
+    line-height: 19.5px;
+
+
+  }
+  
   .travel-info {
-    text-align: center;
-    align-items: center;
+    gap: 20px;
   }
-
-  .travel-info div {
-    width: 100%;
-  }
-
-  .travel-info div button {
-    width: 100%;
-  }
-
-  .travel-imgs {
-    align-items: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .travel-page {
-    padding: 24px;
-  }
-
-  .travel-info {
-    gap: 24px;
-  }
-
+  
   .travel-info h3 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .travel-info div button {
-    height: 50px;
-  }
-
-  .travel-info div button p {
-    font-size: 16px;
-    line-height: 50px;
-  }
-
-  .travel-info div button p .arrow {
-    top: 4px;
-    left: 15px;
-  }
-
-  .travel-imgs {
-    gap: 48px;
-  }
-}
-
-@media (max-width: 375px) {
-  .travel-page {
-    padding: 16px;
-  }
-
-  .travel-info h3 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 40px;
   }
-
+  
   .travel-info div button {
-    height: 48px;
+    width: 100%;
+    max-width: 100%;
   }
-
-  .travel-info div button p {
-    font-size: 14px;
-    line-height: 48px;
+  
+  .tr {
+    gap: 40px;
   }
-
-  .travel-info div button p .arrow {
-    top: 3px;
-    left: 12px;
+  
+  .travel-imgs img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .travel-imgs .overlay {
+    padding: 40px;
   }
 }

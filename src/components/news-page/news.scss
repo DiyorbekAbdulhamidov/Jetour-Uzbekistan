@@ -1,8 +1,8 @@
-.news-page {
+.news-pages {
   display: flex;
   justify-content: space-between;
-  padding: 48px 72px;
-  align-items: center;
+  padding: 30px
+  // align-items: center;
 }
 
 .news-info {
@@ -81,11 +81,11 @@
 }
 
 @media (max-width: 768px) {
-  .news-page {
+  .news-pages {
     flex-direction: column;
     gap: 30px;
     padding: 36px;
-    margin-top: 80px;
+    margin-top: 180px;
   }
 
   .news-imgs {
@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 375px) {
-  .news-page {
+  .news-pages {
     padding: 24px;
   }
 }

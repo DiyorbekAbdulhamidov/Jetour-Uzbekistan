@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/imgs/Jeotur-logo-blanco-final.png';
 import link from '../assets/imgs/link.svg';
 import './home.scss';
+import { Container } from '../container/container';
 
 function HomePage() {
   const [activeLink, setActiveLink] = useState('');
@@ -12,8 +13,8 @@ function HomePage() {
   };
 
   return (
-    <>
-      <section className="home">
+    <section className='home'>
+      <Container>
         <header>
           <img className="logo" src={logo} alt="" />
           <nav>
@@ -81,9 +82,9 @@ function HomePage() {
         <Link to="/page">
           <img className="link" src={link} alt="" />
         </Link>
-      </section>
-    </>
+      </Container>
+    </section>
   );
 }
 
-export default HomePage;
+export default HomePage;  

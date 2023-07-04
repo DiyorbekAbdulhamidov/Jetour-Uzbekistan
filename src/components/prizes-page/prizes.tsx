@@ -1,8 +1,11 @@
+import { Container } from "../container/container";
 import "./prizes.scss"
 
 function Prizes() {
   return ( 
     <section className="prizes-page">
+      <Container>
+        <div className="prizes-pages">
       <h3 className="h3">
         НАШИ <br />
        <span>НАГРАДЫ</span>  
@@ -15,7 +18,7 @@ function Prizes() {
 
         <div>
           <span>2020</span>
-          <p>JETOUR X70, как самая <br /> продаваемая модель автомобиля.</p>
+          <p>JETOUR X70, как самая <br /> продаваемая модель.</p>
         </div>
 
         <div>
@@ -28,7 +31,10 @@ function Prizes() {
           <p>Превзошли по продажам таких <br /> гигантов как Toyota и Huyundai.</p>
         </div>
       </div>
+      </div>
+      </Container>
     </section> 
+
   );
 }
 

@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   padding: 72px;
+  margin-top: 40px;  
+
 
   h2 {
     text-align: center;
@@ -28,15 +30,16 @@
     align-items: center;
 
     .suv-car {
-      width: 1296px;
+      max-width: 1296px;
       height: 729px;
       border-radius: 15px;
+      margin-top: 20px;
     }
 
     .icon {
       position: relative;
       cursor: pointer;
-      bottom: 470px;
+      bottom: 450px;
     }
   }
 

@@ -1,9 +1,7 @@
 .home {
-  width: 100%;
+  max-width: 100%;
   height: 968px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
   padding: 72px;
   background-color: black;
   background-repeat: no-repeat;
@@ -17,8 +15,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     z-index: -1;
     opacity: 0.5;
     background-repeat: no-repeat;
@@ -90,7 +88,7 @@
   }
 
   .logo {
-    width: 253px;
+    max-width: 253px;
     height: 61.972px;
   }
 
@@ -125,7 +123,7 @@
     left: 50%;
     top: 120px;
     cursor: pointer;
-    width: 20px;
+    max-width: 20px;
     height: 35px;
   }
 

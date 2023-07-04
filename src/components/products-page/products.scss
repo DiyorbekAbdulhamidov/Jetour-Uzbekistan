@@ -4,16 +4,21 @@
   gap: 20px;
   padding: 72px;
 
+  @media (max-width: 768px) {
+    padding: 50px;
+  }
+
   .products-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 40px;
 
     div {
       display: flex;
       flex-direction: column;
-      gap: 5px;
+      gap: 10px;
 
       h3 {
         color: #fff;
@@ -22,6 +27,11 @@
         font-weight: 700;
         line-height: 60px;
         text-transform: uppercase;
+
+        @media (max-width: 768px) {
+          font-size: 30px;
+          line-height: 40px;
+        }
       }
 
       h4 {
@@ -33,6 +43,11 @@
         color: transparent;
         -webkit-text-stroke: 0.4px #ffffff;
         font-weight: 400;
+
+        @media (max-width: 768px) {
+          font-size: 30px;
+          line-height: 40px;
+        }
       }
     }
 
@@ -56,6 +71,13 @@
         color: #fff;
         background: #ff4a17;
       }
+
+      @media (max-width: 768px) {
+        width: 180px;
+        height: 55px;
+        font-size: 12px;
+        letter-spacing: 1.4px;
+      }
     }
   }
 
@@ -66,11 +88,23 @@
     gap: 26px;
     margin-top: 20px;
 
+    @media (max-width: 768px) {
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     img {
       width: 410px;
       height: 488px;
       border-radius: 10px;
       opacity: 0.8;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 356px;
+      }
     }
 
     div {
@@ -86,63 +120,13 @@
         font-family: Arimo;
         font-weight: 700;
         line-height: 31.2px;
-      }
-    }
-  }
 
-  @media (max-width: 768px) {
-    padding: 48px;
+        @media (max-width: 768px) {
 
-    .products-info {
-      justify-content: center;
-      text-align: center;
-      gap: 20px;
 
-      div {
-        margin-bottom: 20px;
-      }
-    }
-
-    .products-boxes {
-      justify-content: flex-start;
-    }
-  }
-
-  @media (max-width: 480px) {
-    padding: 24px;
-
-    .products-info {
-      align-items: center;
-    }
-
-    .products-boxes {
-      justify-content: center;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
-
-  @media (max-width: 375px) {
-    padding: 16px;
-
-    .products-info {
-      h3,
-      h4 {
-        font-size: 40px;
-        line-height: 36px;
-      }
-    }
-
-    .products-boxes {
-      gap: 16px;
-
-      div {
-        p {
-          font-size: 20px;
+          font-size: 18px;
           line-height: 24px;
+          bottom: 30px;
         }
       }
     }

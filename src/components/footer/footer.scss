@@ -1,8 +1,9 @@
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  padding: 72px;
+  padding: 22px;
+  margin-top: 60px;
 
   .footer-top {
     display: flex;
@@ -28,14 +29,15 @@ footer {
         align-items: center;
         justify-content: center;
 
-        span {
+        a {
           color: rgba(254, 254, 254, 0.70);
-          text-align: center
+          text-align: center;
+          text-decoration: none
         }
 
         ;
 
-        span:hover {
+        a:hover {
           color: #FF4A17;
 
         }
@@ -45,28 +47,31 @@ footer {
     p {
       color: #FEFEFE;
       font-size: 18px;
-      font-family: Arimo,sans-serif;
+      font-family: Arimo, sans-serif;
       font-weight: 700;
       line-height: 23.4px;
-      cursor: pointer;
       transition: all 0.2s ease-in-out;
-
-      &:hover {
-        color: #FF4A17;
-      }
     }
 
     span {
-      cursor: pointer;
       color: rgba(254, 254, 254, 0.70);
       font-size: 16px;
-      font-family: Arimo,sans-serif;
+      font-family: Arimo, sans-serif;
       line-height: 25.6px;
       transition: all 0.2s ease-in-out;
+    }
 
-      &:hover {
-        color: #FF4A17;
-      }
+    a {
+      color: rgba(254, 254, 254, 0.70);
+      font-size: 16px;
+      font-family: Arimo, sans-serif;
+      line-height: 25.6px;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #FF4A17;
     }
   }
 
@@ -97,7 +102,7 @@ footer {
       color: #FFF;
       text-align: center;
       font-size: 12px;
-      font-family: Open Sans,sans-serif;
+      font-family: Open Sans, sans-serif;
       font-weight: 600;
       line-height: 25.6px;
       border: none;
@@ -106,7 +111,7 @@ footer {
     input::placeholder {
       color: #757575;
       font-size: 16px;
-      font-family: Open Sans,sans-serif;
+      font-family: Open Sans, sans-serif;
     }
   }
 
@@ -118,7 +123,8 @@ footer {
     p {
       color: rgba(254, 254, 254, 0.70);
       font-size: 16px;
-      font-family: Arimo,sans-serif;;
+      font-family: Arimo, sans-serif;
+      ;
       line-height: 25.6px;
     }
   }

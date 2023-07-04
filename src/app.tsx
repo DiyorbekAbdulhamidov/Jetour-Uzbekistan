@@ -1,4 +1,5 @@
 import Company from "./components/company-page/company";
+import { Container } from "./components/container/container";
 import Footer from "./components/footer/footer";
 import Home from "./components/home-page/home";
 import Mp4 from "./components/mp4-page/mp4";

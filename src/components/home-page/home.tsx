@@ -16,7 +16,7 @@ function HomePage() {
     <section className='home'>
       <Container>
         <header>
-          <img className="logo" src={logo} alt="" />
+          <a href="/"><img className="logo" src={logo} alt="" /></a>
           <nav>
             <ul>
               <li key="главная">

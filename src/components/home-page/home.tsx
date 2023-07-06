@@ -23,7 +23,7 @@ function HomePage() {
                 <Link
                   className={activeLink === '' ? 'active' : ''}
                   to="/"
-                  onClick={() => handleLinkClick('главная')}
+                  onClick={() => handleLinkClick('главная')}  
                 >
                   главная
                 </Link>

@@ -17,6 +17,15 @@
       justify-content: flex-start;
       display: flex;
       gap: 10px;
+
+      img {
+        transition: all 0.3s ease-in-out;
+      }
+
+      img:hover {
+        filter: invert(57%) sepia(100%) saturate(2878%) hue-rotate(0deg) brightness(104%) contrast(97%);
+      }
+
     }
 
     .footer-gg {
@@ -32,14 +41,11 @@
         a {
           color: rgba(254, 254, 254, 0.70);
           text-align: center;
-          text-decoration: none
+          text-decoration: none;
         }
-
-        ;
 
         a:hover {
           color: #FF4A17;
-
         }
       }
     }
@@ -68,10 +74,10 @@
       line-height: 25.6px;
       transition: all 0.2s ease-in-out;
       text-decoration: none;
-    }
 
-    a:hover {
-      color: #FF4A17;
+      &:hover {
+        color: #FF4A17;
+      }
     }
   }
 
@@ -80,13 +86,14 @@
 
     input {
       width: 201px;
-      height: 22px;
+      height: 32px;
       border-radius: 10px;
       background: #000;
       padding: 13px 15px;
       border: none;
       position: relative;
       color: white;
+      text-align: start;
 
       @media (max-width: 768px) {
         width: 100%;
@@ -96,7 +103,7 @@
     button {
       cursor: pointer;
       width: 89px;
-      height: 26px;
+      height: 32px;
       border-radius: 10px;
       background: #FF4A17;
       color: #FFF;
@@ -110,7 +117,7 @@
 
     input::placeholder {
       color: #757575;
-      font-size: 16px;
+      font-size: 13px;
       font-family: Open Sans, sans-serif;
     }
   }
@@ -124,7 +131,6 @@
       color: rgba(254, 254, 254, 0.70);
       font-size: 16px;
       font-family: Arimo, sans-serif;
-      ;
       line-height: 25.6px;
     }
   }
@@ -140,8 +146,6 @@
     }
 
     .inpBtn {
-      // flex-direction: column;
-
       input {
         width: 100%;
       }
@@ -151,4 +155,40 @@
   @media (max-width: 375px) {
     padding: 24px;
   }
+}
+
+.alert {
+  max-width: 300px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  right: 30px;
+  padding: 20px;
+  background-color: #17d673;
+  /* Red */
+  color: white;
+  z-index: 9999;
+  border-radius: 7px;
+}
+
+/* The close button */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }

@@ -30,6 +30,8 @@ function News() {
               showThumbs={false}
               centerMode={true}
               centerSlidePercentage={50}
+              swipeable={false}
+              stopOnHover={false}
             >
               <div>
                 <img src={link1} alt="" />
@@ -37,9 +39,6 @@ function News() {
               <div>
                 <img src={link2} alt="" />
               </div>
-              {/* <div> */}
-              {/* <img className="link3" src="https://s3-alpha-sig.figma.com/img/8d0f/20f3/fe217c3e52e42bf0e5cd68743f54d0a2?Expires=1688947200&Signature=G4ZWUPhHXVQKbZRTZxDk62RHvwZkeZx13TwbmCuL5h7jZQ209Mr97zkw2vpJPiT4LL1oCkLdB9RJ7zZsiVfaegKSX86-aRLl4ZiCpK8QpBCMVBkzjOfPmJK01OcBGvvcf0L4R~nXHNKt25ga7ci~xV4m~T~7ka1wWubsukfIQLwmELEPeNWMd8bJfHvDg2f11CnM8QfLs-h5alib7OnEGz6wEW8WXZ-B2hdWmkkvjIcW7-XLVSnQvbGI-adrqDBaPzrPrYlBxEnuJbSIUCUo8Htx2-kFN1StBMmudFILEX9iYBsg2Y67thL2om9ABjsxxeYrJMax7ETWNTir-SbDCQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" /> */}
-              {/* </div> */}
               <div>
                 <img src={link1} alt="" />
               </div>

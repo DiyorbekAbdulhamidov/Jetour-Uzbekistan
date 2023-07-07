@@ -5,7 +5,7 @@ import "./history.scss"
 function Historys() {
   return (
     <section className="history-page">
-      <img className="pr" src={pr} alt="" />
+      <img className="pr" src={pr} alt="president-jetour" />
       <div className="history-info">
         <span className="hs">История JETOUR</span>
         <p className="hp">История</p>

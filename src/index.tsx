@@ -7,13 +7,17 @@ import "../src/components/fonts/poppins.css";
 import './index.css';
 import App from './app';
 import About from './components/about/about';
+import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
-  </BrowserRouter>,
+  <HelmetProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>,
+  </HelmetProvider>,
+
   document.getElementById('root')
 );

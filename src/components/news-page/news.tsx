@@ -15,7 +15,7 @@ function News() {
           <div className="news-info">
             <p>Наш Блог</p>
             <h3>Читайте  наши <h2>новости </h2> </h3>
-            <span>Читать больше <img src={grayArrow} alt="" /></span>
+            <span>Читать больше <img src={grayArrow} alt="arrow" /></span>
           </div>
           <div className="news-imgs">
             <Carousel
@@ -34,16 +34,16 @@ function News() {
               stopOnHover={false}
             >
               <div>
-                <img src={link1} alt="" />
+                <img src={link1} alt="news-info-photo" />
               </div>
               <div>
-                <img src={link2} alt="" />
+                <img src={link2} alt="news-info-photo" />
               </div>
               <div>
-                <img src={link1} alt="" />
+                <img src={link1} alt="news-info-photo" />
               </div>
               <div>
-                <img src={link2} alt="" />
+                <img src={link2} alt="news-info=photo" />
               </div>
             </Carousel>
           </div>

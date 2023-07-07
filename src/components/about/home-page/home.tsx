@@ -46,7 +46,7 @@ function HomePage() {
   return (
     <section className="home-section">
       <header className="home-header">
-        <img className="home-logo" src={logo} alt="" />
+        <img className="home-logo" src={logo} alt="jetour-logo" />
         <nav className="home-nav">
           <li className="home-li"><Link className="home-a" to="/">главная</Link></li>
           <li className="home-li"><Link className="home-a activ" to="/about">О нас</Link></li>

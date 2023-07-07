@@ -48,7 +48,7 @@ function HomePage() {
       <Container>
         <header>
           <a href="/">
-            <img className="logo" src={logo} alt="" />
+            <img className="logo" src={logo} alt="logo" />
           </a>
           <nav className={isMenuOpen ? 'menu-open' : ''}>
             <ul>
@@ -119,7 +119,7 @@ function HomePage() {
           </span>
         </div>
         <Link to="/page">
-          <img className="link" src={link} alt="" />
+          <img className="link" src={link} alt="link-photo" />
         </Link>
       </Container>
     </section>

@@ -14,11 +14,11 @@ function Jetour() {
             Зона технологического развития, Аньхой, Китай. <br />
             Подчиненная инвестиционная отрасль включает в себя различные сегменты <br /> бизнеса, включая автомобили, производство автозапчастей и НИОКР, <br /> судостроение, финансовые инвестиции, торговлю услугами и т.д., <br /> охватывающие около 80 стран и регионов по всему миру. В настоящее время в <br /> компании работает более 48000 сотрудников, а общий объем активов <br /> составляет более 120 миллиардов юаней.</span>
         </div>
-        <img className="cherry" src={cherry} alt="" />
+        <img className="cherry" src={cherry} alt="cherry-holding" />
       </div>
       <div className="jetour-flx">
-        <img className="life" src={life} alt="" />
-        <img className="cars" src={cars} alt="" />
+        <img className="life" src={life} alt="mountain" />
+        <img className="cars" src={cars} alt="cars" />
       </div>
     </section>
   )

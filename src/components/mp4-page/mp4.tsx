@@ -14,8 +14,8 @@ function Mp4() {
       <Container>
         <h2>jetour - <span>Управляй своим будущим </span> </h2>
         <div>
-          <img className="suv-car" src={suvCar} alt="" />
-          <img className="icon" src={mp4Logo} alt="" onClick={handleIconClick} />
+          <img className="suv-car" src={suvCar} alt="jetour-car" />
+          <img className="icon" src={mp4Logo} alt="mp4player" onClick={handleIconClick} />
         </div>
       </Container>
     </section>

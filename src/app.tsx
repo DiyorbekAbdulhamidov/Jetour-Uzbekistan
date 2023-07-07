@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Company from "./components/company-page/company";
 import { Container } from "./components/container/container";
 import Footer from "./components/footer/footer";
@@ -13,6 +14,10 @@ import Travel from "./components/travel-page/travel";
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Jetour Uzbekistan</title>
+        <meta name="description" content="Jetour Автокомпания - международная производитель автомобилей. Мы производим и поставляем высококачественные автомобили." />
+      </Helmet>
       <Home></Home>
       <Company></Company>
       <Products></Products>

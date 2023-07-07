@@ -51,10 +51,10 @@ function Footer() {
                 Добро пожаловать в нашу быстро <br /> ростущую компанию по производству <br /> Китайских электромобилей
               </span>
               <div className="logos">
-                <img src={linkedin} alt="" />
-                <img src={twitter} alt="" />
-                <img src={youtube} alt="" />
-                <img src={ai} alt="" />
+                <img src={linkedin} alt="linkedin" />
+                <img src={twitter} alt="twitter" />
+                <img src={youtube} alt="youtube" />
+                <img src={ai} alt="ai" />
               </div>
             </div>
 

@@ -26,16 +26,16 @@ function HomePage() {
             <a className="home-a" href="/">главная</a>
           </li>
           <li className="home-li">
-            <a className="home-a" href="/app">О нас</a>
+            <a className="home-a" href="/about">О нас</a>
           </li>
           <li className="home-li">
-            <a className="home-a" href="/menu">ПРОДУКЦИЯ</a>
+            <a className="home-a" href="/">ПРОДУКЦИЯ</a>
           </li>
           <li className="home-li">
-            <a className="home-a" href="/menu">Инновации</a>
+            <a className="home-a" href="/">Инновации</a>
           </li>
           <li className="home-li">
-            <a className="home-a" href="/menu">Контакты</a>
+            <a className="home-a" href="/">Контакты</a>
           </li>
         </nav>
       </div>

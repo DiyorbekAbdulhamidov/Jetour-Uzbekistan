@@ -9,7 +9,7 @@ function HomePage() {
   const [activeLink, setActiveLink] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLinkClick = (linkName:any) => {
+  const handleLinkClick = (linkName: any) => {
     setActiveLink(linkName);
     setIsMenuOpen(false);
   };
@@ -26,23 +26,23 @@ function HomePage() {
             <a href="/">главная</a>
           </li>
           <li>
-            <a href="/app">О нас</a>
+            <a href="/about">О нас</a>
           </li>
           <li>
-            <a href="/menu">ПРОДУКЦИЯ</a>
+            <a href="/">ПРОДУКЦИЯ</a>
           </li>
           <li>
-            <a href="/menu">Инновации</a>
+            <a href="/">Инновации</a>
           </li>
           <li>
-            <a href="/menu">Контакты</a>
+            <a href="/">Контакты</a>
           </li>
         </nav>
       </div>
     );
   }
 
-  return (  
+  return (
     <section className="home">
       <Container>
         <header>

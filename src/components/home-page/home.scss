@@ -32,19 +32,19 @@
   }
 
   .hamburger-btn,
-  .language{
+  .language {
     font-size: 40px;
     color: white;
     cursor: pointer;
     display: none;
   }
 
-  .language{
+  .language {
     display: block;
   }
 
   nav {
-    display: flex; 
+    display: flex;
     gap: 60px;
   }
 
@@ -61,7 +61,7 @@
     font-weight: 600;
     line-height: 24px;
     text-transform: uppercase;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     ;
   }
 
@@ -80,7 +80,8 @@
   .info .hh2 {
     color: white;
     font-size: 40px;
-    font-family: Arimo,sans-serif;;
+    font-family: Arimo, sans-serif;
+    ;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.8px;
@@ -90,13 +91,14 @@
   .info h3 {
     color: transparent;
     font-size: 40px;
-    font-family: Arimo,sans-serif;;
+    font-family: Arimo, sans-serif;
+    ;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
     -webkit-text-stroke: 0.4px #ffffff;
-    font-weight: 400;  
+    font-weight: 400;
   }
 
   .logo {
@@ -118,7 +120,8 @@
   .inovations p {
     color: #fff;
     font-size: 16px;
-    font-family: Open Sans,sans-serif;;
+    font-family: Open Sans, sans-serif;
+    ;
     font-weight: 600;
     line-height: 25.6px;
   }
@@ -126,7 +129,8 @@
   .inovations span {
     color: #fefefe;
     font-size: 18px;
-    font-family: Open Sans,sans-serif;;
+    font-family: Open Sans, sans-serif;
+    ;
     line-height: 34.2px;
   }
 
@@ -140,21 +144,25 @@
   }
 
   @media (max-width: 768px) {
-    header{
-    align-items: center;
-    justify-content: center;
-  
+    header {
+      align-items: center;
+      justify-content: center;
+
     }
 
     nav {
       display: none;
     }
 
-    .language{
+    .language {
       display: none;
     }
 
-    .hamburger-btn{
+    .hamburger-btn {
+      display: block;
+    }
+
+    .menu {
       display: block;
     }
 
@@ -228,6 +236,34 @@
 
     .link {
       top: 40px;
+    }
+  }
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(72, 72, 72);
+  border-radius: 8px;
+  top: 130px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
     }
   }
 }

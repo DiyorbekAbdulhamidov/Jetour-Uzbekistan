@@ -9,7 +9,7 @@ function HomePage() {
   const [activeLink, setActiveLink] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLinkClick = (linkName: string) => {
+  const handleLinkClick = (linkName:any) => {
     setActiveLink(linkName);
     setIsMenuOpen(false);
   };
@@ -18,7 +18,31 @@ function HomePage() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
+  function renderMenu() {
+    return (
+      <div className="menu">
+        <nav>
+          <li>
+            <a href="/">главная</a>
+          </li>
+          <li>
+            <a href="/app">О нас</a>
+          </li>
+          <li>
+            <a href="/menu">ПРОДУКЦИЯ</a>
+          </li>
+          <li>
+            <a href="/menu">Инновации</a>
+          </li>
+          <li>
+            <a href="/menu">Контакты</a>
+          </li>
+        </nav>
+      </div>
+    );
+  }
+
+  return (  
     <section className="home">
       <Container>
         <header>
@@ -74,12 +98,11 @@ function HomePage() {
               </li>
             </ul>
           </nav>
-          <span className="material-symbols-outlined hamburger-btn" onClick={handleHamburgerClick}>
+          <span className={`material-symbols-outlined hamburger-btn ${isMenuOpen ? 'close' : ''}`} onClick={handleHamburgerClick}>
             {isMenuOpen ? 'close' : 'menu'}
           </span>
-          <span className="material-symbols-outlined language">
-            language
-          </span>
+          <span className="material-symbols-outlined language">language</span>
+          {isMenuOpen && renderMenu()}
         </header>
 
         <div className="info">

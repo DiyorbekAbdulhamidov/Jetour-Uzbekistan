@@ -11,7 +11,7 @@ function Footer() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [showAlert, setShowAlert] = useState(false);
 
-  const token = "1087300113:AAEhODP9XLBsYOEklzBsh7Qx4Co_ZrvPDRU";
+  const token = "6234017255:AAGUOISG3bmtcO4mFSArLZ7YNADsjzxSvFU";
   const API_URL = `https://api.telegram.org/bot${token}/sendMessage`;
 
   const handleSubmit = async (event: any) => {

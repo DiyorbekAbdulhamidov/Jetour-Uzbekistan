@@ -6,6 +6,7 @@
   background-color: rgb(72, 72, 72);
   border-radius: 8px;
   top: 130px;
+  left: 40px;
   padding: 20px;
   transition: all 0.3s ease-in-out;
 
@@ -41,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 180px;
 }
 
 .hamburger-btn,
@@ -121,9 +122,11 @@
     display: block;
   }
 
-
-  .home-section {
+  .home-section { 
     padding: 36px;
+  }
+  .home-header {
+    gap: 100px;
   }
 
   .home-logo {

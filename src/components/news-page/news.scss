@@ -84,8 +84,8 @@
   .news-pages {
     flex-direction: column;
     gap: 30px;
-    padding: 36px;
-    margin-top: 180px;
+    padding: 20px;
+    margin-top: 280px;
   }
 
   .news-imgs {
@@ -106,6 +106,6 @@
 
 @media (max-width: 375px) {
   .news-pages {
-    padding: 24px;
+    padding: 0px;
   }
 }

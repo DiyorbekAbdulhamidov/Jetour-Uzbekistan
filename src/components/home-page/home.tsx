@@ -23,24 +23,25 @@ function HomePage() {
       <div className="menu">
         <nav>
           <li>
-            <a href="/">главная</a>
+            <Link className="menu-link" to="/">главная</Link>
           </li>
           <li>
-            <a href="/about">О нас</a>
+            <Link className="menu-link" to="/about">О нас</Link>
           </li>
           <li>
-            <a href="/">ПРОДУКЦИЯ</a>
+            <Link className="menu-link" to="/">ПРОДУКЦИЯ</Link>
           </li>
           <li>
-            <a href="/">Инновации</a>
+            <Link className="menu-link" to="/">Инновации</Link>
           </li>
           <li>
-            <a href="/">Контакты</a>
+            <Link className="menu-link" to="/">Контакты</Link>
           </li>
         </nav>
       </div>
     );
   }
+  
 
   return (
     <section className="home">

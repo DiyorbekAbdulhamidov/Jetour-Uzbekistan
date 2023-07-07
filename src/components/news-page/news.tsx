@@ -33,16 +33,16 @@ function News() {
               swipeable={false}
               stopOnHover={false}
             >
-              <div>
+              <div className="news-car">
                 <img src={link1} alt="news-info-photo" />
               </div>
-              <div>
+              <div className="news-car" >
                 <img src={link2} alt="news-info-photo" />
               </div>
-              <div>
+              <div className="news-car">
                 <img src={link1} alt="news-info-photo" />
               </div>
-              <div>
+              <div className="news-car">
                 <img src={link2} alt="news-info=photo" />
               </div>
             </Carousel>

@@ -14,7 +14,7 @@ function Footer() {
   const token = "6234017255:AAGUOISG3bmtcO4mFSArLZ7YNADsjzxSvFU";
   const API_URL = `https://api.telegram.org/bot${token}/sendMessage`;
 
-  const handleSubmit = async (event: any) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const phoneNumberValue = event.currentTarget.phoneNumber.value;

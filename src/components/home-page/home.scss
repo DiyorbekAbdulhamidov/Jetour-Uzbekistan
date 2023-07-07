@@ -27,8 +27,20 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 60px;
+  }
+
+  .hamburger-btn,
+  .language{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+
+  .language{
+    display: block;
   }
 
   nav {
@@ -128,9 +140,24 @@
   }
 
   @media (max-width: 768px) {
+    header{
+    align-items: center;
+    justify-content: center;
+  
+    }
+
     nav {
       display: none;
     }
+
+    .language{
+      display: none;
+    }
+
+    .hamburger-btn{
+      display: block;
+    }
+
     padding: 48px;
 
     .info {

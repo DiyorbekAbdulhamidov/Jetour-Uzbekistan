@@ -7,23 +7,31 @@ import { Container } from '../container/container';
 
 function HomePage() {
   const [activeLink, setActiveLink] = useState('');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLinkClick = (linkName: any) => {
+  const handleLinkClick = (linkName: string) => {
     setActiveLink(linkName);
+    setIsMenuOpen(false);
+  };
+
+  const handleHamburgerClick = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <section className='home'>
+    <section className="home">
       <Container>
         <header>
-          <a href="/"><img className="logo" src={logo} alt="" /></a>
-          <nav>
+          <a href="/">
+            <img className="logo" src={logo} alt="" />
+          </a>
+          <nav className={isMenuOpen ? 'menu-open' : ''}>
             <ul>
               <li key="главная">
                 <Link
                   className={activeLink === '' ? 'active' : ''}
                   to="/"
-                  onClick={() => handleLinkClick('главная')}  
+                  onClick={() => handleLinkClick('главная')}
                 >
                   главная
                 </Link>
@@ -41,7 +49,7 @@ function HomePage() {
                 <Link
                   className={activeLink === 'ПРОДУКЦИЯ' ? 'active' : ''}
                   to="/products"
-                  onClick={() => handleLinkClick('')}
+                  onClick={() => handleLinkClick('ПРОДУКЦИЯ')}
                 >
                   ПРОДУКЦИЯ
                 </Link>
@@ -50,7 +58,7 @@ function HomePage() {
                 <Link
                   className={activeLink === 'Инновации' ? 'active' : ''}
                   to="/innovations"
-                  onClick={() => handleLinkClick('')}
+                  onClick={() => handleLinkClick('Инновации')}
                 >
                   Инновации
                 </Link>
@@ -59,17 +67,24 @@ function HomePage() {
                 <Link
                   className={activeLink === 'Контакты' ? 'active' : ''}
                   to="/contacts"
-                  onClick={() => handleLinkClick('')}
+                  onClick={() => handleLinkClick('Контакты')}
                 >
                   Контакты
                 </Link>
               </li>
             </ul>
           </nav>
+          <span className="material-symbols-outlined hamburger-btn" onClick={handleHamburgerClick}>
+            {isMenuOpen ? 'close' : 'menu'}
+          </span>
+          <span className="material-symbols-outlined language">
+            language
+          </span>
         </header>
+
         <div className="info">
-          <h2 className='hh2'>Наслаждайся жизнью,</h2>
-          <h3 className='hh3'>Наслаждайся поездкой.</h3>
+          <h2 className="hh2">Наслаждайся жизнью,</h2>
+          <h3 className="hh3">Наслаждайся поездкой.</h3>
         </div>
         <div className="inovations">
           <p>Инновация</p>
@@ -87,4 +102,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;  
+export default HomePage;

@@ -20,7 +20,7 @@ function HomePage() {
 
   function renderMenu() {
     return (
-      <div className="menu">
+      <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <nav>
           <li>
             <Link className="menu-link" to="/">главная</Link>
@@ -41,7 +41,7 @@ function HomePage() {
       </div>
     );
   }
-  
+
 
   return (
     <section className="home">
@@ -103,7 +103,8 @@ function HomePage() {
             {isMenuOpen ? 'close' : 'menu'}
           </span>
           <span className="material-symbols-outlined language">language</span>
-          {isMenuOpen && renderMenu()}
+          {/* {isMenuOpen && renderMenu()} */}
+          {renderMenu()}
         </header>
 
         <div className="info">

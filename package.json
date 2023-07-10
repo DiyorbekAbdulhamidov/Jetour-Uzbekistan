@@ -2,8 +2,7 @@
   "name": "jetour",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jetour-uzbekistan.uz/",
-  "aboutpage": "http://jetour-uzbekistan.uz/about",
+  "homepage": "https://jetour-uzbekistan.uz/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

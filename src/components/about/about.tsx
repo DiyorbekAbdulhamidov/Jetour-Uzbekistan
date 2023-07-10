@@ -10,8 +10,9 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>Jetour Uzbekistan</title>
+        <title>Про JETOUR</title>
         <meta name="description" content="Jetour Автокомпания - международная производитель автомобилей. Мы производим и поставляем высококачественные автомобили." />
+        <link rel="canonical" href="https://jetour-uzbekistan.uz/about" />
       </Helmet>
       <HomePage />
       <Jetour />

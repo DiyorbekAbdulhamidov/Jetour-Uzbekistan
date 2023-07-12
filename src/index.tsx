@@ -8,6 +8,7 @@ import './index.css';
 import App from './app';
 import About from './components/about/about';
 import { HelmetProvider } from 'react-helmet-async';
+import { Toaster } from "react-hot-toast";
 
 ReactDOM.render(
   <HelmetProvider>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>,
+    <Toaster />
   </HelmetProvider>,
 
   document.getElementById('root')

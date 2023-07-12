@@ -20,7 +20,7 @@ function HomePage() {
 
   function renderMenu() {
     return (
-      <div className="menu">
+      <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <nav className="home-nav">
           <li className="home-li">
             <Link className="home-a" to="/">главная</Link>
@@ -46,7 +46,7 @@ function HomePage() {
   return (
     <section className="home-section">
       <header className="home-header">
-        <img className="home-logo" src={logo} alt="jetour-logo" />
+        <a href="/about"><img className="home-logo" src={logo} alt="jetour-logo" /></a>
         <nav className="home-nav">
           <li className="home-li"><Link className="home-a" to="/">главная</Link></li>
           <li className="home-li"><Link className="home-a activ" to="/about">О нас</Link></li>
@@ -59,7 +59,8 @@ function HomePage() {
           {isMenuOpen ? 'close' : 'menu'}
         </span>
         <span className="material-symbols-outlined language">language</span>
-        {isMenuOpen && renderMenu()}
+        {/* {isMenuOpen && renderMenu()} */}
+        {renderMenu()}
       </header>
       <div className="home-info">
         <h2 className="home-h2">О нас</h2>

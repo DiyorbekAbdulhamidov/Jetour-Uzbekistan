@@ -5,6 +5,8 @@ import youtube from "../assets/imgs/youtube.svg";
 import ai from "../assets/imgs/ai.svg";
 import linkedin from "../assets/imgs/linkedin.svg";
 import { Container } from "../container/container";
+import { toast } from "react-hot-toast";
+
 import './footer.scss';
 
 function Footer() {
@@ -28,10 +30,13 @@ function Footer() {
     try {
       await axios.post(API_URL, data).then((response) => {
         setPhoneNumber("");
-        setShowAlert(true);
+        // setShowAlert(true);
+        toast.success("Ваше сообщение успешно отправлено..");
+
       })
     }
     catch (error: any) {
+      toast.error(error?.response?.data);
       console.error(error.message);
     }
   };

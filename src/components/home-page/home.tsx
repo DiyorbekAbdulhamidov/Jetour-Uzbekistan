@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/imgs/Jeotur-logo-blanco-final.png';
 import link from '../assets/imgs/link.svg';
 import './home.scss';
@@ -22,21 +22,12 @@ function HomePage() {
     return (
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <nav>
-          <li>
-            <Link className="menu-link" to="/">главная</Link>
-          </li>
-          <li>
-            <Link className="menu-link" to="/about">О нас</Link>
-          </li>
-          <li>
-            <Link className="menu-link" to="/">ПРОДУКЦИЯ</Link>
-          </li>
-          <li>
-            <Link className="menu-link" to="/">Инновации</Link>
-          </li>
-          <li>
-            <Link className="menu-link" to="/">Контакты</Link>
-          </li>
+          <li className="home-li"><NavLink className="home-a activ" to="/">главная</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/about">О нас</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/products">ПРОДУКЦИЯ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/blog">бЛОГ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/inovations">Инновации</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/contacts">Контакты</NavLink></li>
         </nav>
       </div>
     );
@@ -52,51 +43,12 @@ function HomePage() {
           </a>
           <nav className={isMenuOpen ? 'menu-open' : ''}>
             <ul>
-              <li key="главная">
-                <Link
-                  className={activeLink === '' ? 'active' : ''}
-                  to="/"
-                  onClick={() => handleLinkClick('главная')}
-                >
-                  главная
-                </Link>
-              </li>
-              <li key="О нас">
-                <Link
-                  className={activeLink === 'О нас' ? 'active' : ''}
-                  to="/about"
-                  onClick={() => handleLinkClick('О нас')}
-                >
-                  О нас
-                </Link>
-              </li>
-              <li key="ПРОДУКЦИЯ">
-                <Link
-                  // className={activeLink === 'ПРОДУКЦИЯ' ? 'active' : ''}
-                  to="/"
-                  // onClick={() => handleLinkClick('ПРОДУКЦИЯ')}
-                >
-                  ПРОДУКЦИЯ
-                </Link>
-              </li>
-              <li key="Инновации">
-                <Link
-                  // className={activeLink === 'Инновации' ? 'active' : ''}
-                  to="/"
-                  // onClick={() => handleLinkClick('Инновации')}
-                >
-                  Инновации
-                </Link>
-              </li>
-              <li key="Контакты">
-                <Link
-                  // className={activeLink === 'Контакты' ? 'active' : ''}
-                  to="/"
-                  // onClick={() => handleLinkClick('Контакты')}
-                >
-                  Контакты
-                </Link>
-              </li>
+              <li className="home-li"><NavLink className="home-a activ" to="/">главная</NavLink></li>
+              <li className="home-li"><NavLink className="home-a" to="/about">О нас</NavLink></li>
+              <li className="home-li"><NavLink className="home-a" to="/products">ПРОДУКЦИЯ</NavLink></li>
+              <li className="home-li"><NavLink className="home-a" to="/blog">бЛОГ</NavLink></li>
+              <li className="home-li"><NavLink className="home-a" to="/inovations">Инновации</NavLink></li>
+              <li className="home-li"><NavLink className="home-a" to="/contacts">Контакты</NavLink></li>
             </ul>
           </nav>
           <span className={`material-symbols-outlined hamburger-btn ${isMenuOpen ? 'close' : ''}`} onClick={handleHamburgerClick}>

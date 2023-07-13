@@ -1,5 +1,5 @@
 import logo from "../../assets/imgs/Jeotur-logo-blanco-final.png"
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
 
 
@@ -22,21 +22,12 @@ function HomePage() {
     return (
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <nav className="home-nav">
-          <li className="home-li">
-            <Link className="home-a" to="/">главная</Link>
-          </li>
-          <li className="home-li">
-            <Link className="home-a" to="/about">О нас</Link>
-          </li>
-          <li className="home-li">
-            <Link className="home-a" to="/">ПРОДУКЦИЯ</Link>
-          </li>
-          <li className="home-li">
-            <Link className="home-a" to="/">Инновации</Link>
-          </li>
-          <li className="home-li">
-            <Link className="home-a" to="/">Контакты</Link>
-          </li>
+          <li className="home-li"><NavLink className="home-a" to="/">главная</NavLink></li>
+          <li className="home-li"><NavLink className="home-a activ" to="/about">О нас</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/products">ПРОДУКЦИЯ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/blog">бЛОГ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/inovations">Инновации</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/contacts">Контакты</NavLink></li>
         </nav>
       </div>
     );
@@ -48,12 +39,12 @@ function HomePage() {
       <header className="home-header">
         <a href="/about"><img className="home-logo" src={logo} alt="jetour-logo" /></a>
         <nav className="home-nav">
-          <li className="home-li"><Link className="home-a" to="/">главная</Link></li>
-          <li className="home-li"><Link className="home-a activ" to="/about">О нас</Link></li>
-          <li className="home-li"><a className="home-a" href="">ПРОДУКЦИЯ</a></li>
-          <li className="home-li"><a className="home-a" href="">бЛОГ</a></li>
-          <li className="home-li"><a className="home-a" href="">Инновации</a></li>
-          <li className="home-li"><a className="home-a" href="">Контакты</a></li>
+          <li className="home-li"><NavLink className="home-a" to="/">главная</NavLink></li>
+          <li className="home-li"><NavLink className="home-a activ" to="/about">О нас</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/products">ПРОДУКЦИЯ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/blog">бЛОГ</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/inovations">Инновации</NavLink></li>
+          <li className="home-li"><NavLink className="home-a" to="/contacts">Контакты</NavLink></li>
         </nav>
         <span className={`material-symbols-outlined hamburger-btn ${isMenuOpen ? 'close' : ''}`} onClick={handleHamburgerClick}>
           {isMenuOpen ? 'close' : 'menu'}

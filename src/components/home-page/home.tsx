@@ -72,27 +72,27 @@ function HomePage() {
               </li>
               <li key="ПРОДУКЦИЯ">
                 <Link
-                  className={activeLink === 'ПРОДУКЦИЯ' ? 'active' : ''}
-                  to="/products"
-                  onClick={() => handleLinkClick('ПРОДУКЦИЯ')}
+                  // className={activeLink === 'ПРОДУКЦИЯ' ? 'active' : ''}
+                  to="/"
+                  // onClick={() => handleLinkClick('ПРОДУКЦИЯ')}
                 >
                   ПРОДУКЦИЯ
                 </Link>
               </li>
               <li key="Инновации">
                 <Link
-                  className={activeLink === 'Инновации' ? 'active' : ''}
-                  to="/innovations"
-                  onClick={() => handleLinkClick('Инновации')}
+                  // className={activeLink === 'Инновации' ? 'active' : ''}
+                  to="/"
+                  // onClick={() => handleLinkClick('Инновации')}
                 >
                   Инновации
                 </Link>
               </li>
               <li key="Контакты">
                 <Link
-                  className={activeLink === 'Контакты' ? 'active' : ''}
-                  to="/contacts"
-                  onClick={() => handleLinkClick('Контакты')}
+                  // className={activeLink === 'Контакты' ? 'active' : ''}
+                  to="/"
+                  // onClick={() => handleLinkClick('Контакты')}
                 >
                   Контакты
                 </Link>

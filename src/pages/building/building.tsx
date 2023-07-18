@@ -29,8 +29,8 @@ const Building = () => {
       await axios.post(API_URL, data).then((response) => {
         setName("");
         setPhoneNumber("");
-        setShowAlert(true);
-        // toast.success("Ваше сообщение успешно отправлено.")
+        // setShowAlert(true);
+        toast.success("Ваше сообщение успешно отправлено.")
       });
     }
     catch (error: any) {

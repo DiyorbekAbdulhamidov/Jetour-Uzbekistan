@@ -30,7 +30,9 @@ const Building = () => {
         setName("");
         setPhoneNumber("");
         // setShowAlert(true);
-        toast.success("Ваше сообщение успешно отправлено.")
+        toast.success('Ваше сообщение успешно отправлено.', {
+          className: 'custom-toast',
+        });
       });
     }
     catch (error: any) {

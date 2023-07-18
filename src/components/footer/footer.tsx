@@ -31,7 +31,9 @@ function Footer() {
       await axios.post(API_URL, data).then((response) => {
         setPhoneNumber("");
         // setShowAlert(true);
-        toast.success("Ваше сообщение успешно отправлено..");
+        toast.success('Ваше сообщение успешно отправлено.', {
+          className: 'custom-toast',
+        });
 
       })
     }

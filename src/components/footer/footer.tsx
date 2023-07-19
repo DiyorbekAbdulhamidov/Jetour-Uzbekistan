@@ -22,7 +22,7 @@ function Footer() {
     const phoneNumberValue = event.currentTarget.phoneNumber.value;
 
     const data = {
-      chat_id: '-1001752218273',
+      chat_id: '-796827606',
       parse_mode: "html",
       text: phoneNumberValue
     };

@@ -20,7 +20,7 @@ const Building = () => {
     event.preventDefault();
 
     const data = {
-      chat_id: "-1001752218273",
+      chat_id: "-796827606",
       parse_mode: "html",
       text: `<b>Name:</b> ${name}\n<b>Phone Number:</b> ${phoneNumber}`,
     };

@@ -8,6 +8,7 @@ import { Container } from "../container/container";
 import { toast } from "react-hot-toast";
 
 import './footer.scss';
+import { Link } from "react-router-dom";
 
 function Footer() {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -67,10 +68,10 @@ function Footer() {
 
             <div className="footer-gg">
               <p>Навигация</p>
-              <span><a href="">О нас</a></span>
-              <span><a href="">Продукция</a></span>
-              <span><a href="">Блог</a></span>
-              <span><a href="">Инновация</a></span>
+              <span><Link to={"/about"}>О нас</Link></span>
+              <span><Link to={"/products"}>Продукция</Link></span>
+              <span><Link to={"/blog"}>Блог</Link></span>
+              <span><Link to={"/inovations"}>Инновация</Link></span>3
             </div>
 
             <div className="footer-gg">

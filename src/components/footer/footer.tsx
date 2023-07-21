@@ -71,7 +71,7 @@ function Footer() {
               <span><Link to={"/about"}>О нас</Link></span>
               <span><Link to={"/products"}>Продукция</Link></span>
               <span><Link to={"/blog"}>Блог</Link></span>
-              <span><Link to={"/inovations"}>Инновация</Link></span>3
+              <span><Link to={"/inovations"}>Инновация</Link></span>
             </div>
 
             <div className="footer-gg">

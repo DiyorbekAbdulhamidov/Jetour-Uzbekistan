@@ -25,7 +25,7 @@ function Footer() {
     const data = {
       chat_id: '-796827606',
       parse_mode: "html",
-      text: phoneNumberValue
+      text: `<b>Заявка c сайта Jetour</b>\n<b>Телефон:</b> ${phoneNumberValue}`,
     };
 
     try {

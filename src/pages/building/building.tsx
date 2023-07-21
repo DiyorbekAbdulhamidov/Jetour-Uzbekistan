@@ -22,7 +22,7 @@ const Building = () => {
     const data = {
       chat_id: "-796827606",
       parse_mode: "html",
-      text: `<b>Name:</b> ${name}\n<b>Phone Number:</b> ${phoneNumber}`,
+      text: `<b>Заявка c сайта Jetour</b>  <b>Отправитель:</b> ${name}\n<b>Телефон:</b> ${phoneNumber}`,
     };
 
     try {

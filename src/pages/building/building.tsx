@@ -13,20 +13,19 @@ const Building = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const token = "6234017255:AAGUOISG3bmtcO4mFSArLZ7YNADsjzxSvFU";
-  const API_URL = `https://api.telegram.org/bot${token}/sendMessage`;
+  const API_URL = `https://jetour-uzbekistan.uz/api/send-message/21a464971f3f1bd202fc97132754c5dd0e0407f9/`;
 
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 
-    const data = {
-      chat_id: "-796827606",
-      parse_mode: "html",
-      text: `<b>Заявка c сайта Jetour</b>  <b>Отправитель:</b> ${name}\n<b>Телефон:</b> ${phoneNumber}`,
+    const formData = {
+      name: name,
+      phone_number: phoneNumber
     };
 
     try {
-      await axios.post(API_URL, data).then((response) => {
+      await axios.post(API_URL, formData).then((response) => {
+
         setName("");
         setPhoneNumber("");
         // setShowAlert(true);

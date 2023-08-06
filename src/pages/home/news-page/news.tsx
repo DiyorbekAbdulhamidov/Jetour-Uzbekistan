@@ -1,11 +1,12 @@
-import grayArrow from "../assets/imgs/gray-arrow.svg";
-import link1 from "../assets/imgs/jetour-link.svg";
-import link2 from "../assets/imgs/jetour-link2.svg";
-import link3 from "../assets/imgs/jetour-link3.svg";
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import grayArrow from "../../../assets/imgs/gray-arrow.svg";
+import link1 from "../../../assets/imgs/jetour-link.svg";
+import link2 from "../../../assets/imgs/jetour-link2.svg";
+// import link3 from "../assets/imgs/jetour-link3.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./news.scss";
-import { Container } from "../container/container";
+import { Container } from "../../../components/container/container";
 
 function News() {
   return (

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import twitter from "../assets/imgs/twitter.svg";
-import youtube from "../assets/imgs/youtube.svg";
-import ai from "../assets/imgs/ai.svg";
-import linkedin from "../assets/imgs/linkedin.svg";
+import twitter from "../../assets/imgs/twitter.svg";
+import youtube from "../../assets/imgs/youtube.svg";
+import ai from "../../assets/imgs/ai.svg";
+import linkedin from "../../assets/imgs/linkedin.svg";
 import { Container } from "../container/container";
 import { toast } from "react-hot-toast";
 

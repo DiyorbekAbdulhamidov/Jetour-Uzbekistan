@@ -1,10 +1,10 @@
 import HomePage from "../about/home-page/home";
 import Jetour from "./jetour-page/jetour";
 import Historys from "./history/history";
-import Start from "../start-page/start";
-import Company from "../company-page/company";
-import Footer from "../footer/footer";
 import { Helmet } from "react-helmet-async";
+import Company from "../../components/company-page/company";
+import Start from "../../components/start-page/start";
+import Footer from "../../components/footer/footer";
 
 function About() {
   return (

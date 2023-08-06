@@ -1,4 +1,4 @@
-import logo from "../../assets/imgs/Jeotur-logo-blanco-final.png"
+import logo from "../../../assets/imgs/Jeotur-logo-blanco-final.png"
 import { Link, NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
 

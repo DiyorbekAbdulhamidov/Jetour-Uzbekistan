@@ -1,6 +1,6 @@
-import cars from "../../assets/imgs/cars.svg";
-import cherry from "../../assets/imgs/cherry.svg";
-import life from "../../assets/imgs/life.svg";
+import cars from "../../../assets/imgs/cars.svg";
+import cherry from "../../../assets/imgs/cherry.svg";
+import life from "../../../assets/imgs/life.svg";
 import "./jetour.scss"
 
 function Jetour() {

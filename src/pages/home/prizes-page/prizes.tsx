@@ -1,4 +1,4 @@
-import { Container } from "../container/container";
+import { Container } from "../../../components/container/container";
 import "./prizes.scss"
 
 function Prizes() {

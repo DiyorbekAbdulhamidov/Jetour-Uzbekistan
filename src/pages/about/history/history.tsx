@@ -1,4 +1,4 @@
-import pr from "../../assets/imgs/pr.svg"
+import pr from "../../../assets/imgs/pr.svg"
 
 import "./history.scss"
 

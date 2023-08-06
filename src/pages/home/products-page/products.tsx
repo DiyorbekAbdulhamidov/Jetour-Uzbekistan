@@ -1,7 +1,7 @@
 import dashing from "../assets/imgs/dashing.svg";
 import x95plus from "../assets/imgs/x95plus.svg";
 import x70plus from "../assets/imgs/x70plus.svg";
-import { Container } from "../container/container";
+import { Container } from "../../../components/container/container";
 import "./products.scss";
 
 function Products() {

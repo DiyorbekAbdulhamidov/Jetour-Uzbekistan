@@ -1,8 +1,8 @@
 import React from "react";
 import "./mp4.scss";
-import suvCar from "../assets/imgs/suv-car.svg";
-import mp4Logo from "../assets/imgs/mp4-icon.svg";
-import { Container } from "../container/container";
+import suvCar from "../../../assets/imgs/suv-car.svg";
+import mp4Logo from "../../../assets/imgs/mp4-icon.svg";
+import { Container } from "../../../components/container/container";
 
 function Mp4() {
   const handleIconClick = () => {

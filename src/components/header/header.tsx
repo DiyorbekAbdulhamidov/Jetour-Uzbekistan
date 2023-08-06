@@ -1,6 +1,6 @@
 import React, { useState, FunctionComponent } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/imgs/Jeotur-logo-blanco-final.png';
+import logo from '../../assets/imgs/Jeotur-logo-blanco-final.png';
 
 interface HeaderProps {
 

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import logo from "../../../src/components/assets/imgs/Jeotur-logo-blanco-final.png";
+import logo from "../../assets/imgs/Jeotur-logo-blanco-final.png";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import "../../components/about/home-page/home.scss";
+import "../about/home-page/home.scss";
 import "./building.scss";
 import { toast } from "react-hot-toast";
 

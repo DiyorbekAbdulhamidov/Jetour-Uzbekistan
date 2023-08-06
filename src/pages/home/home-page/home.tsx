@@ -1,8 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
-import link from '../assets/imgs/link.svg';
+import link from '../../../assets/imgs/link.svg';
 import './home.scss';
-import { Container } from '../container/container';
-import Header from '../header/header';
+import { Container } from '../../../components/container/container';
+import Header from '../../../components/header/header';
 
 function HomePage() {
 

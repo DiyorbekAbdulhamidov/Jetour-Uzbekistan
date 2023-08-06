@@ -1,9 +1,9 @@
 import React from 'react';
 import './travel.scss';
-import arrow from '../assets/imgs/arrow.svg';
-import none from '../assets/imgs/none.svg';
-import dog from '../assets/imgs/dog.svg';
-import fer from '../assets/imgs/fer.svg';
+import arrow from '../../../assets/imgs/arrow.svg';
+import none from '../../../assets/imgs/none.svg';
+import dog from '../../../assets/imgs/dog.svg';
+import fer from '../../../assets/imgs/fer.svg';
 import { Container } from '../../../components/container/container';
 
 function Travel() {

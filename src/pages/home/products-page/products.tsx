@@ -1,10 +1,11 @@
-import dashing from "../../../assets/imgs/dashing.svg";
-import x95plus from "../../../assets/imgs/x95plus.svg";
-import x70plus from "../../../assets/imgs/x70plus.svg";
 import { Container } from "../../../components/container/container";
 import "./products.scss";
+import { useContext } from "react";
+import { AppContext, CarsType } from "../../../app";
 
 function Products() {
+  const { cars } = useContext(AppContext) as CarsType;
+
   return (
     <section className="products">
       <Container>
@@ -16,20 +17,12 @@ function Products() {
           <button>Наши продукты</button>
         </div>
         <div className="products-boxes">
-          <div>
-            <img src={dashing} alt="JETOUR DASHING" />
-            <p>JETOUR Dashing</p>
-          </div>
-
-          <div>
-            <img src={x95plus} alt="JETOUR X95 PLUS" />
-            <p>JETOUR X95Plus </p>
-          </div>
-
-          <div>
-            <img src={x70plus} alt="JETOUR X70PLUS" />
-            <p>JETOUR X70Plus </p>
-          </div>
+          {cars.map((car) => (
+            <div key={car.id}>
+              <img src={car.car_image} alt={car.name} />
+              <p>{car.name}</p>
+            </div>
+          ))}
         </div>
       </Container>
     </section>

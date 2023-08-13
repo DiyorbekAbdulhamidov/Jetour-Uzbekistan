@@ -15,8 +15,12 @@ function News() {
         <div className="news-pages">
           <div className="news-info">
             <p>Наш Блог</p>
-            <h3>Читайте  наши <h2>новости </h2> </h3>
-            <span>Читать больше <img src={grayArrow} alt="arrow" /></span>
+            <h3>
+              Читайте наши <span>новости </span>{" "}
+            </h3>
+            <span>
+              Читать больше <img src={grayArrow} alt="arrow" />
+            </span>
           </div>
           <div className="news-imgs">
             <Carousel
@@ -37,7 +41,7 @@ function News() {
               <div className="news-car">
                 <img src={link1} alt="news-info-photo" />
               </div>
-              <div className="news-car" >
+              <div className="news-car">
                 <img src={link2} alt="news-info-photo" />
               </div>
               <div className="news-car">

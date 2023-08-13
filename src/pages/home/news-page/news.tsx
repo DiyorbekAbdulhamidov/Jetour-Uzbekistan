@@ -15,7 +15,7 @@ function News() {
         <div className="news-pages">
           <div className="news-info">
             <p>Наш Блог</p>
-            <h3>Читайте  наши <h2>новости </h2> </h3>
+            <h3>Читайте  наши <span>новости </span> </h3>
             <span>Читать больше <img src={grayArrow} alt="arrow" /></span>
           </div>
           <div className="news-imgs">
